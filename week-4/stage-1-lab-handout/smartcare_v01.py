@@ -12,6 +12,8 @@ if __name__ == "__main__":
     print(f"Patient: {patient2_name} | Practitioner: {practitioner2_name} | Time: {appointment2_time}")
     print("\n\n\n")
     pt_name = input("Enter Patient's Name: ")
+    if not pt_name:
+        raise ValueError("Patient Name cannot be empty")
     practioner_name = input("Enter Practitioner's Name: ")
     appointment_time = input("Enter Appointment Time: ")
 

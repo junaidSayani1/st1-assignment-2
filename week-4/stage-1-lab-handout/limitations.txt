@@ -1,0 +1,11 @@
+1. No receptionist input given in requirements (I used input on my own). 
+Appointments are all hardcoded.
+
+2.  When the program ends, the list (all Appointments) disappear. 
+There is no file or database, nothing is saved at all.
+
+3.No validation, no try catching, no input validation except for very basic ones.
+
+4. No appointment management, conflict warning, reschduling, or searching for avb time slot.
+
+5. Cant be used in production env for a real world clinic,  no persistence, no conflicts, no clinic slots, and no error handling.
