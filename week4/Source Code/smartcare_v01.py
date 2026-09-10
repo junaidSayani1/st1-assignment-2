@@ -19,28 +19,3 @@ if __name__ == "__main__":
 
     print(f"Patient: {pt_name} | Practitioner: {practioner_name} | Time: {appointment_time}")
 
-'''
-Answering Questions:
-
-Q) What data must be stored?
-
-A) Data related to patient's name, practitioner's name, appointment time, also practitioners count, 
-to reallocate to different gp's. 
-
-
-Q) What functions might be useful?
-
-A) Functions of booking for an appointment/scheduling, also function to check conflicts, function to check available slots.
-Also func to display the complete list/output.
-
-
-Q) What could go wrong?
-
-A) No typecasting, no try-catching of errors, no input validation, no conflict management. No reallocation for conflicts.
-
-
-Q) What requirements are unclear?
-
-A) Does the input run forever, or is there a limit of for example 5 appointments per day, and so on.
-
-'''
